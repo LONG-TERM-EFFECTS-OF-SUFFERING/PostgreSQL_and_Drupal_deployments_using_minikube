@@ -9,7 +9,7 @@
 2. Setting environment variables of the PostgreSQL deployment.
 
     ```BASH
-    kubectl set env deployment/postgresql POSTGRES_USER=user POSTGRES_PASSWORD=password POSTGRES_DB=grupaldb
+    kubectl set env deployment/postgresql POSTGRES_USER=user POSTGRES_PASSWORD=password POSTGRES_DB=drupaldb
     ```
 
 3. PostgreSQL deployment service creation.
